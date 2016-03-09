@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fdy-lh-RDT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="g5C-al-XAL">
+            <objects>
+                <tabBarController id="Fdy-lh-RDT" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="vbn-a7-dK2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GFA-Qh-5Hy" kind="relationship" relationship="viewControllers" id="JU5-8W-pfO"/>
+                        <segue destination="t8F-1a-5Vr" kind="relationship" relationship="viewControllers" id="UlI-L0-2I3"/>
+                        <segue destination="Pa0-hg-9JF" kind="relationship" relationship="viewControllers" id="yq0-JA-lmE"/>
+                        <segue destination="O8v-pl-3NG" kind="relationship" relationship="viewControllers" id="9eh-MT-qNo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sy5-qM-GDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2049" y="411"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="gzn-gU-quS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GFA-Qh-5Hy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" id="dni-iz-9WQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yxg-ba-2Sr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eO0-EO-Jr6" kind="relationship" relationship="rootViewController" id="Sjo-2c-awD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I8B-Ry-MCk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1364" y="393"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="KYl-tr-U2o">
+            <objects>
+                <tableViewController id="eO0-EO-Jr6" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qay-yL-vzW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="sbr-DY-GAk">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sbr-DY-GAk" id="KO2-v4-Piz">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eO0-EO-Jr6" id="O17-Pi-RbD"/>
+                            <outlet property="delegate" destination="eO0-EO-Jr6" id="0Vy-Yp-0fR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="首页" id="Vqb-4K-YB7"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zrq-Kp-Zg5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739" y="387"/>
+        </scene>
+        <!--我的理财-->
+        <scene sceneID="sQI-3t-16F">
+            <objects>
+                <navigationController id="Pa0-hg-9JF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的理财" id="9K9-Sq-FZi"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lwz-LU-e6c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="xf9-2p-Wra" kind="relationship" relationship="rootViewController" id="yAa-ky-x7m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1cc-Il-xBE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2083" y="1233"/>
+        </scene>
+        <!--更多-->
+        <scene sceneID="7a2-7X-mAp">
+            <objects>
+                <tableViewController id="tW6-On-l5S" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qhu-Xk-cIL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="SdN-He-cp8">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SdN-He-cp8" id="khb-uM-o5n">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tW6-On-l5S" id="qDw-SY-l7e"/>
+                            <outlet property="delegate" destination="tW6-On-l5S" id="DbU-ma-jII"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="更多" id="fxl-GO-jWw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOu-am-D6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2745" y="1967"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="NWU-zg-20X">
+            <objects>
+                <tableViewController id="xf9-2p-Wra" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Erc-lu-jgq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="VTO-Uh-3dR">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VTO-Uh-3dR" id="BOe-JR-EIW">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xf9-2p-Wra" id="ctT-dF-Blb"/>
+                            <outlet property="delegate" destination="xf9-2p-Wra" id="NRj-PB-fQR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ukr-QL-Haz"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QpL-4f-RUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2083" y="1951"/>
+        </scene>
+        <!--产品列表-->
+        <scene sceneID="e6A-5J-HBi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t8F-1a-5Vr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="产品列表" id="OqW-0c-sPx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TVF-EA-RuH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uJg-bn-1P8" kind="relationship" relationship="rootViewController" id="xWP-gL-OKZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yrd-DD-7GS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1398" y="1233"/>
+        </scene>
+        <!--产品列表-->
+        <scene sceneID="XXw-Rh-bqg">
+            <objects>
+                <tableViewController id="uJg-bn-1P8" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="AKd-ch-V58">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QTI-0p-0b0">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QTI-0p-0b0" id="isU-7R-61x">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uJg-bn-1P8" id="2e0-5u-9Nb"/>
+                            <outlet property="delegate" destination="uJg-bn-1P8" id="C1K-vl-JAx"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="产品列表" id="cAP-Xg-QwZ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zBc-jm-Cgu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-739" y="1233"/>
+        </scene>
+        <!--更多-->
+        <scene sceneID="RA3-vt-ikH">
+            <objects>
+                <navigationController id="O8v-pl-3NG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="更多" id="V5p-j3-QPD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rSq-7N-qpu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tW6-On-l5S" kind="relationship" relationship="rootViewController" id="Stc-Eh-Xje"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zRC-wj-mxW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2745" y="1233"/>
+        </scene>
+    </scenes>
+</document>
