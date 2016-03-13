@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface NoviceGuidanceTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIView *ratioView;
 
+@property (weak, nonatomic) IBOutlet UIView *ratioView;
 @end

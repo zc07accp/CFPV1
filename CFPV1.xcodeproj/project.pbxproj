@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9795D341C910D280003E57F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D321C910D280003E57F /* LoginViewController.m */; };
+		B9795D351C910D280003E57F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9795D331C910D280003E57F /* LoginViewController.xib */; };
+		B9795D391C910D460003E57F /* LoginNoPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D371C910D460003E57F /* LoginNoPassWordViewController.m */; };
+		B9795D3A1C910D460003E57F /* LoginNoPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9795D381C910D460003E57F /* LoginNoPassWordViewController.xib */; };
+		B9795D3E1C910D670003E57F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D3C1C910D670003E57F /* RegisterViewController.m */; };
+		B9795D3F1C910D670003E57F /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9795D3D1C910D670003E57F /* RegisterViewController.xib */; };
+		B9795D491C91187C0003E57F /* ProductDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D471C91187C0003E57F /* ProductDetailTableViewController.m */; };
+		B9795D4A1C91187C0003E57F /* ProductDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9795D481C91187C0003E57F /* ProductDetailTableViewController.xib */; };
+		B9795D4E1C911C2D0003E57F /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D4D1C911C2D0003E57F /* ProductTableViewController.m */; };
+		B9795D561C9126740003E57F /* HomeTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D551C9126740003E57F /* HomeTabBarViewController.m */; };
+		B9795D601C9169CD0003E57F /* MyCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9795D5E1C9169CD0003E57F /* MyCenterTableViewController.m */; };
+		B9795D611C9169CD0003E57F /* MyCenterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9795D5F1C9169CD0003E57F /* MyCenterTableViewController.xib */; };
 		B9AD4C531C8EDE50004F4B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AD4C521C8EDE50004F4B1F /* main.m */; };
 		B9AD4C561C8EDE50004F4B1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AD4C551C8EDE50004F4B1F /* AppDelegate.m */; };
-		B9AD4C591C8EDE50004F4B1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AD4C581C8EDE50004F4B1F /* ViewController.m */; };
 		B9AD4C5C1C8EDE50004F4B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AD4C5A1C8EDE50004F4B1F /* Main.storyboard */; };
 		B9AD4C5F1C8EDE50004F4B1F /* CFPV1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9AD4C5D1C8EDE50004F4B1F /* CFPV1.xcdatamodeld */; };
 		B9AD4C611C8EDE50004F4B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AD4C601C8EDE50004F4B1F /* Assets.xcassets */; };
@@ -41,6 +52,12 @@
 		B9C3A5631C9024080039734A /* NoviceGuidanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9C3A5611C9024080039734A /* NoviceGuidanceTableViewCell.xib */; };
 		B9C3A5671C9028940039734A /* HomePageScrollerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C3A5651C9028940039734A /* HomePageScrollerTableViewCell.m */; };
 		B9C3A5681C9028940039734A /* HomePageScrollerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9C3A5661C9028940039734A /* HomePageScrollerTableViewCell.xib */; };
+		B9FBB8241C92A5D8007B2A6C /* InvestmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FBB8221C92A5D8007B2A6C /* InvestmentViewController.m */; };
+		B9FBB8251C92A5D8007B2A6C /* InvestmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FBB8231C92A5D8007B2A6C /* InvestmentViewController.xib */; };
+		B9FBB82A1C92A7CF007B2A6C /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FBB8281C92A7CF007B2A6C /* AuthenticationViewController.m */; };
+		B9FBB82B1C92A7CF007B2A6C /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9FBB8291C92A7CF007B2A6C /* AuthenticationViewController.xib */; };
+		B9FBB82F1C92AE50007B2A6C /* MoreTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FBB82E1C92AE50007B2A6C /* MoreTableViewController.m */; };
+		B9FBB8321C92B37F007B2A6C /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FBB8311C92B37F007B2A6C /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +78,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9795D311C910D280003E57F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B9795D321C910D280003E57F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B9795D331C910D280003E57F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B9795D361C910D460003E57F /* LoginNoPassWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginNoPassWordViewController.h; sourceTree = "<group>"; };
+		B9795D371C910D460003E57F /* LoginNoPassWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginNoPassWordViewController.m; sourceTree = "<group>"; };
+		B9795D381C910D460003E57F /* LoginNoPassWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginNoPassWordViewController.xib; sourceTree = "<group>"; };
+		B9795D3B1C910D670003E57F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		B9795D3C1C910D670003E57F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		B9795D3D1C910D670003E57F /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		B9795D461C91187C0003E57F /* ProductDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailTableViewController.h; sourceTree = "<group>"; };
+		B9795D471C91187C0003E57F /* ProductDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailTableViewController.m; sourceTree = "<group>"; };
+		B9795D481C91187C0003E57F /* ProductDetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDetailTableViewController.xib; sourceTree = "<group>"; };
+		B9795D4C1C911C2D0003E57F /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
+		B9795D4D1C911C2D0003E57F /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
+		B9795D541C9126740003E57F /* HomeTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabBarViewController.h; sourceTree = "<group>"; };
+		B9795D551C9126740003E57F /* HomeTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarViewController.m; sourceTree = "<group>"; };
+		B9795D5D1C9169CD0003E57F /* MyCenterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCenterTableViewController.h; sourceTree = "<group>"; };
+		B9795D5E1C9169CD0003E57F /* MyCenterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCenterTableViewController.m; sourceTree = "<group>"; };
+		B9795D5F1C9169CD0003E57F /* MyCenterTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCenterTableViewController.xib; sourceTree = "<group>"; };
 		B9AD4C4E1C8EDE50004F4B1F /* CFPV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFPV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AD4C521C8EDE50004F4B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9AD4C541C8EDE50004F4B1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9AD4C551C8EDE50004F4B1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B9AD4C571C8EDE50004F4B1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B9AD4C581C8EDE50004F4B1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B9AD4C5B1C8EDE50004F4B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9AD4C5E1C8EDE50004F4B1F /* CFPV1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CFPV1.xcdatamodel; sourceTree = "<group>"; };
 		B9AD4C601C8EDE50004F4B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,6 +159,16 @@
 		B9C3A5641C9028940039734A /* HomePageScrollerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageScrollerTableViewCell.h; sourceTree = "<group>"; };
 		B9C3A5651C9028940039734A /* HomePageScrollerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageScrollerTableViewCell.m; sourceTree = "<group>"; };
 		B9C3A5661C9028940039734A /* HomePageScrollerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageScrollerTableViewCell.xib; sourceTree = "<group>"; };
+		B9FBB8211C92A5D8007B2A6C /* InvestmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestmentViewController.h; sourceTree = "<group>"; };
+		B9FBB8221C92A5D8007B2A6C /* InvestmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestmentViewController.m; sourceTree = "<group>"; };
+		B9FBB8231C92A5D8007B2A6C /* InvestmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvestmentViewController.xib; sourceTree = "<group>"; };
+		B9FBB8271C92A7CF007B2A6C /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		B9FBB8281C92A7CF007B2A6C /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		B9FBB8291C92A7CF007B2A6C /* AuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		B9FBB82D1C92AE50007B2A6C /* MoreTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewController.h; sourceTree = "<group>"; };
+		B9FBB82E1C92AE50007B2A6C /* MoreTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewController.m; sourceTree = "<group>"; };
+		B9FBB8301C92B37F007B2A6C /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		B9FBB8311C92B37F007B2A6C /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +196,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9795D301C910CD60003E57F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B9795D311C910D280003E57F /* LoginViewController.h */,
+				B9795D321C910D280003E57F /* LoginViewController.m */,
+				B9795D331C910D280003E57F /* LoginViewController.xib */,
+				B9795D361C910D460003E57F /* LoginNoPassWordViewController.h */,
+				B9795D371C910D460003E57F /* LoginNoPassWordViewController.m */,
+				B9795D381C910D460003E57F /* LoginNoPassWordViewController.xib */,
+				B9795D3B1C910D670003E57F /* RegisterViewController.h */,
+				B9795D3C1C910D670003E57F /* RegisterViewController.m */,
+				B9795D3D1C910D670003E57F /* RegisterViewController.xib */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		B9795D451C9118670003E57F /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B9795D461C91187C0003E57F /* ProductDetailTableViewController.h */,
+				B9795D471C91187C0003E57F /* ProductDetailTableViewController.m */,
+				B9795D481C91187C0003E57F /* ProductDetailTableViewController.xib */,
+			);
+			name = ProductDetail;
+			sourceTree = "<group>";
+		};
+		B9795D4B1C911BEB0003E57F /* ProductTable */ = {
+			isa = PBXGroup;
+			children = (
+				B9795D4C1C911C2D0003E57F /* ProductTableViewController.h */,
+				B9795D4D1C911C2D0003E57F /* ProductTableViewController.m */,
+			);
+			name = ProductTable;
+			sourceTree = "<group>";
+		};
+		B9795D501C9122440003E57F /* MyCentre */ = {
+			isa = PBXGroup;
+			children = (
+				B9795D5D1C9169CD0003E57F /* MyCenterTableViewController.h */,
+				B9795D5E1C9169CD0003E57F /* MyCenterTableViewController.m */,
+				B9795D5F1C9169CD0003E57F /* MyCenterTableViewController.xib */,
+			);
+			name = MyCentre;
+			sourceTree = "<group>";
+		};
 		B9AD4C451C8EDE50004F4B1F = {
 			isa = PBXGroup;
 			children = (
@@ -182,14 +271,14 @@
 				B9C3A53A1C8FD71A0039734A /* Controller */,
 				B9AD4C541C8EDE50004F4B1F /* AppDelegate.h */,
 				B9AD4C551C8EDE50004F4B1F /* AppDelegate.m */,
-				B9AD4C571C8EDE50004F4B1F /* ViewController.h */,
-				B9AD4C581C8EDE50004F4B1F /* ViewController.m */,
 				B9AD4C5A1C8EDE50004F4B1F /* Main.storyboard */,
 				B9AD4C601C8EDE50004F4B1F /* Assets.xcassets */,
 				B9AD4C621C8EDE50004F4B1F /* LaunchScreen.storyboard */,
 				B9AD4C651C8EDE50004F4B1F /* Info.plist */,
 				B9AD4C5D1C8EDE50004F4B1F /* CFPV1.xcdatamodeld */,
 				B9AD4C511C8EDE50004F4B1F /* Supporting Files */,
+				B9FBB8301C92B37F007B2A6C /* testViewController.h */,
+				B9FBB8311C92B37F007B2A6C /* testViewController.m */,
 			);
 			path = CFPV1;
 			sourceTree = "<group>";
@@ -316,7 +405,16 @@
 		B9C3A53A1C8FD71A0039734A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9FBB82C1C92AE2B007B2A6C /* more */,
+				B9FBB8261C92A7AA007B2A6C /* 身份验证 */,
+				B9FBB8201C92A5B8007B2A6C /* Investment */,
+				B9795D501C9122440003E57F /* MyCentre */,
+				B9795D4B1C911BEB0003E57F /* ProductTable */,
+				B9795D451C9118670003E57F /* ProductDetail */,
+				B9795D301C910CD60003E57F /* login */,
 				B9C3A53E1C8FD7480039734A /* HomePage */,
+				B9795D541C9126740003E57F /* HomeTabBarViewController.h */,
+				B9795D551C9126740003E57F /* HomeTabBarViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -372,6 +470,35 @@
 				B9C3A5611C9024080039734A /* NoviceGuidanceTableViewCell.xib */,
 			);
 			path = HomePageCell;
+			sourceTree = "<group>";
+		};
+		B9FBB8201C92A5B8007B2A6C /* Investment */ = {
+			isa = PBXGroup;
+			children = (
+				B9FBB8211C92A5D8007B2A6C /* InvestmentViewController.h */,
+				B9FBB8221C92A5D8007B2A6C /* InvestmentViewController.m */,
+				B9FBB8231C92A5D8007B2A6C /* InvestmentViewController.xib */,
+			);
+			name = Investment;
+			sourceTree = "<group>";
+		};
+		B9FBB8261C92A7AA007B2A6C /* 身份验证 */ = {
+			isa = PBXGroup;
+			children = (
+				B9FBB8271C92A7CF007B2A6C /* AuthenticationViewController.h */,
+				B9FBB8281C92A7CF007B2A6C /* AuthenticationViewController.m */,
+				B9FBB8291C92A7CF007B2A6C /* AuthenticationViewController.xib */,
+			);
+			name = "身份验证";
+			sourceTree = "<group>";
+		};
+		B9FBB82C1C92AE2B007B2A6C /* more */ = {
+			isa = PBXGroup;
+			children = (
+				B9FBB82D1C92AE50007B2A6C /* MoreTableViewController.h */,
+				B9FBB82E1C92AE50007B2A6C /* MoreTableViewController.m */,
+			);
+			name = more;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -477,6 +604,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9795D351C910D280003E57F /* LoginViewController.xib in Resources */,
+				B9795D3F1C910D670003E57F /* RegisterViewController.xib in Resources */,
+				B9FBB8251C92A5D8007B2A6C /* InvestmentViewController.xib in Resources */,
+				B9795D611C9169CD0003E57F /* MyCenterTableViewController.xib in Resources */,
 				B9C3A5531C9002EE0039734A /* edition1.png in Resources */,
 				B9C3A5681C9028940039734A /* HomePageScrollerTableViewCell.xib in Resources */,
 				B9ADDC3C1C907CF30025D3B4 /* MJRefresh.bundle in Resources */,
@@ -484,6 +615,9 @@
 				B9AD4C641C8EDE50004F4B1F /* LaunchScreen.storyboard in Resources */,
 				B9AD4C611C8EDE50004F4B1F /* Assets.xcassets in Resources */,
 				B9AD4C5C1C8EDE50004F4B1F /* Main.storyboard in Resources */,
+				B9795D4A1C91187C0003E57F /* ProductDetailTableViewController.xib in Resources */,
+				B9FBB82B1C92A7CF007B2A6C /* AuthenticationViewController.xib in Resources */,
+				B9795D3A1C910D460003E57F /* LoginNoPassWordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,15 +642,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9AD4C591C8EDE50004F4B1F /* ViewController.m in Sources */,
+				B9FBB82F1C92AE50007B2A6C /* MoreTableViewController.m in Sources */,
+				B9FBB8241C92A5D8007B2A6C /* InvestmentViewController.m in Sources */,
 				B9ADDC311C907CF30025D3B4 /* MJRefreshFooter.m in Sources */,
+				B9795D391C910D460003E57F /* LoginNoPassWordViewController.m in Sources */,
+				B9795D341C910D280003E57F /* LoginViewController.m in Sources */,
 				B9ADDC351C907CF30025D3B4 /* MJRefreshAutoStateFooter.m in Sources */,
+				B9FBB8321C92B37F007B2A6C /* testViewController.m in Sources */,
 				B9C3A5671C9028940039734A /* HomePageScrollerTableViewCell.m in Sources */,
 				B9ADDC301C907CF30025D3B4 /* MJRefreshComponent.m in Sources */,
+				B9795D601C9169CD0003E57F /* MyCenterTableViewController.m in Sources */,
 				B9ADDC331C907CF30025D3B4 /* MJRefreshAutoGifFooter.m in Sources */,
 				B9ADDC3A1C907CF30025D3B4 /* MJRefreshNormalHeader.m in Sources */,
+				B9FBB82A1C92A7CF007B2A6C /* AuthenticationViewController.m in Sources */,
 				B9ADDC3E1C907CF30025D3B4 /* UIScrollView+MJExtension.m in Sources */,
+				B9795D561C9126740003E57F /* HomeTabBarViewController.m in Sources */,
 				B9ADDC371C907CF30025D3B4 /* MJRefreshBackNormalFooter.m in Sources */,
+				B9795D3E1C910D670003E57F /* RegisterViewController.m in Sources */,
+				B9795D4E1C911C2D0003E57F /* ProductTableViewController.m in Sources */,
 				B9ADDC3D1C907CF30025D3B4 /* MJRefreshConst.m in Sources */,
 				B9ADDC341C907CF30025D3B4 /* MJRefreshAutoNormalFooter.m in Sources */,
 				B9ADDC381C907CF30025D3B4 /* MJRefreshBackStateFooter.m in Sources */,
@@ -530,6 +673,7 @@
 				B9ADDC3B1C907CF30025D3B4 /* MJRefreshStateHeader.m in Sources */,
 				B9ADDC2F1C907CF30025D3B4 /* MJRefreshBackFooter.m in Sources */,
 				B9ADDC3F1C907CF30025D3B4 /* UIScrollView+MJRefresh.m in Sources */,
+				B9795D491C91187C0003E57F /* ProductDetailTableViewController.m in Sources */,
 				B9ADDC2E1C907CF30025D3B4 /* MJRefreshAutoFooter.m in Sources */,
 				B9C3A5621C9024080039734A /* NoviceGuidanceTableViewCell.m in Sources */,
 				B9ADDC361C907CF30025D3B4 /* MJRefreshBackGifFooter.m in Sources */,

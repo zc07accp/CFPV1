@@ -21,5 +21,10 @@
 
     // Configure the view for the selected state
 }
+- (IBAction)gotoProductTableView:(UIButton *)sender
+{
+    NSLog(@"%@",sender);
+   [[NSNotificationCenter defaultCenter]postNotificationName:@"cheackButton" object:self];
+}
 
 @end
